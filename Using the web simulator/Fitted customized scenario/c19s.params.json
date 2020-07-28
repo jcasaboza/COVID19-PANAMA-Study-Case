@@ -1,0 +1,231 @@
+{
+  "ageDistributionData": {
+    "data": [
+      {
+        "ageGroup": "0-9",
+        "population": 773776
+      },
+      {
+        "ageGroup": "10-19",
+        "population": 726611
+      },
+      {
+        "ageGroup": "20-29",
+        "population": 678255
+      },
+      {
+        "ageGroup": "30-39",
+        "population": 618598
+      },
+      {
+        "ageGroup": "40-49",
+        "population": 556394
+      },
+      {
+        "ageGroup": "50-59",
+        "population": 432978
+      },
+      {
+        "ageGroup": "60-69",
+        "population": 282630
+      },
+      {
+        "ageGroup": "70-79",
+        "population": 157808
+      },
+      {
+        "ageGroup": "80+",
+        "population": 87717
+      }
+    ],
+    "name": "Panama"
+  },
+  "scenarioData": {
+    "data": {
+      "epidemiological": {
+        "hospitalStayDays": 3,
+        "icuStayDays": 14,
+        "infectiousPeriodDays": 7,
+        "latencyDays": 2,
+        "overflowSeverity": 2,
+        "peakMonth": 0,
+        "r0": {
+          "begin": 2.7,
+          "end": 3
+        },
+        "seasonalForcing": 0
+      },
+      "mitigation": {
+        "mitigationIntervals": [
+          {
+            "color": "#bf5b17",
+            "name": "#1",
+            "timeRange": {
+              "begin": "2020-03-09T17:00:00.000Z",
+              "end": "2020-03-14T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 10,
+              "end": 15
+            }
+          },
+          {
+            "color": "#77ff58",
+            "name": "#2",
+            "timeRange": {
+              "begin": "2020-03-14T17:00:00.000Z",
+              "end": "2020-03-18T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 12,
+              "end": 20
+            }
+          },
+          {
+            "color": "#8cbb19",
+            "name": "#3",
+            "timeRange": {
+              "begin": "2020-03-18T17:00:00.000Z",
+              "end": "2020-03-24T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 25,
+              "end": 30
+            }
+          },
+          {
+            "color": "#36330c",
+            "name": "#4",
+            "timeRange": {
+              "begin": "2020-03-24T17:00:00.000Z",
+              "end": "2020-04-08T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 30,
+              "end": 35
+            }
+          },
+          {
+            "color": "#15205b",
+            "name": "#5",
+            "timeRange": {
+              "begin": "2020-04-08T17:00:00.000Z",
+              "end": "2020-04-22T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 50,
+              "end": 55
+            }
+          },
+          {
+            "color": "#83511c",
+            "name": "#6",
+            "timeRange": {
+              "begin": "2020-04-22T17:00:00.000Z",
+              "end": "2020-07-31T17:00:00.000Z"
+            },
+            "transmissionReduction": {
+              "begin": 55,
+              "end": 60
+            }
+          }
+        ]
+      },
+      "population": {
+        "ageDistributionName": "Panama",
+        "caseCountsName": "Panama",
+        "hospitalBeds": 6450,
+        "icuBeds": 396,
+        "importsPerDay": 0,
+        "initialNumberOfCases": 218,
+        "populationServed": 4176873
+      },
+      "simulation": {
+        "numberStochasticRuns": 100,
+        "simulationTimeRange": {
+          "begin": "2020-03-09T17:00:00.000Z",
+          "end": "2020-05-06T17:00:00.000Z"
+        }
+      }
+    },
+    "name": "Panama (edited)"
+  },
+  "schemaVer": "2.0.0",
+  "severityDistributionData": {
+    "data": [
+      {
+        "ageGroup": "0-9",
+        "confirmed": 5,
+        "critical": 5,
+        "fatal": 30,
+        "isolated": 0,
+        "severe": 1
+      },
+      {
+        "ageGroup": "10-19",
+        "confirmed": 5,
+        "critical": 10,
+        "fatal": 30,
+        "isolated": 0,
+        "severe": 3
+      },
+      {
+        "ageGroup": "20-29",
+        "confirmed": 10,
+        "critical": 10,
+        "fatal": 30,
+        "isolated": 0,
+        "severe": 3
+      },
+      {
+        "ageGroup": "30-39",
+        "confirmed": 15,
+        "critical": 15,
+        "fatal": 30,
+        "isolated": 0,
+        "severe": 3
+      },
+      {
+        "ageGroup": "40-49",
+        "confirmed": 20,
+        "critical": 20,
+        "fatal": 30,
+        "isolated": 0,
+        "severe": 6
+      },
+      {
+        "ageGroup": "50-59",
+        "confirmed": 25,
+        "critical": 25,
+        "fatal": 40,
+        "isolated": 0,
+        "severe": 10
+      },
+      {
+        "ageGroup": "60-69",
+        "confirmed": 30,
+        "critical": 35,
+        "fatal": 40,
+        "isolated": 0,
+        "severe": 25
+      },
+      {
+        "ageGroup": "70-79",
+        "confirmed": 40,
+        "critical": 45,
+        "fatal": 50,
+        "isolated": 0,
+        "severe": 35
+      },
+      {
+        "ageGroup": "80+",
+        "confirmed": 50,
+        "critical": 55,
+        "fatal": 50,
+        "isolated": 0,
+        "severe": 50
+      }
+    ],
+    "name": "China CDC"
+  }
+}
